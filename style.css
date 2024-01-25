@@ -3,7 +3,13 @@ body {
     /* Mudar a cor do texto */
     color: #F6F6F6
 }
-
+/* Define uma cor padrão para a tag strong */
 strong {
     color: #22d4fd;
+}
+/* Define um estilo exclusivo para tag span*/
+span{
+    color: #22D4FD;
+    border: 1px solid #22D4FD;
+    padding: 10px;
 }
