@@ -1,5 +1,9 @@
 body {
     background-color: black;
     /* Mudar a cor do texto */
-    color: white
+    color: #F6F6F6
+}
+
+strong {
+    color: #22d4fd;
 }
