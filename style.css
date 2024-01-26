@@ -7,6 +7,8 @@
 body {
     /* Usar o 100% da tela*/
     height: 100vh;
+    /* Para imagem nao sair do body */
+    box-sizing: border-box;
     background-color: black;
     /* Mudar a cor do texto */
     color: #F6F6F6
