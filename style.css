@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Roboto&display=swap');
 * {
     /* Reset CSS */
     margin: 0;
@@ -40,6 +41,7 @@ span{
 
 .apresentacao__conteudo__titulo {
 font-size: 36px;
+font-family: 'Krona One', sans-serif;
 }
 
 .apresentacao__conteudo__texto {
