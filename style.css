@@ -29,14 +29,18 @@ span{
 }
 /* Chamando a class, https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
 .apresentacao {
-    margin: 20%;
+    margin: 10% 27%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+ 
 }
 
 .apresentacao__conteudo{
     width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .apresentacao__conteudo__titulo {
