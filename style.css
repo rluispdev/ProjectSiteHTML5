@@ -5,6 +5,8 @@
 }
 
 body {
+    /* Usar o 100% da tela*/
+    height: 100vh;
     background-color: black;
     /* Mudar a cor do texto */
     color: #F6F6F6
@@ -23,4 +25,5 @@ span{
 .titulo-destaque {
     color: #22d4fd;
 }
+
 
