@@ -7,7 +7,7 @@
 
 body {
     /* Usar o 100% da tela*/
-    height: 100vh;
+    /* height: 100vh; */
     /* Para imagem nao sair do body */
     box-sizing: border-box;
     background-color: black;
@@ -29,7 +29,7 @@ span{
 }
 /* Chamando a class, https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
 .apresentacao {
-    margin: 10% 27%;
+   padding: 8% 27%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -89,4 +89,13 @@ font-family: 'Krona One', sans-serif;
     background-color: #272727;
 }
 
- 
+ .rodape{
+    padding: 28px;
+    color: black;
+    background-color: #22D4FD;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+
+ }
