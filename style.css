@@ -20,12 +20,14 @@ strong {
 /* Define um estilo exclusivo para tag span*/
 span{
     color: #22D4FD;
-    border: 1px solid #22D4FD;
-    padding: 10px;
+
 }
 /* Acessando a class criada no HTML */
 .titulo-destaque {
     color: #22d4fd;
 }
-
-
+/* Chamando a class, https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
+.apresentacao {
+    display: flex;
+    align-items: center;
+}
