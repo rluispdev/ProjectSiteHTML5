@@ -28,6 +28,7 @@ span{
 }
 /* Chamando a class, https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
 .apresentacao {
+    margin: 20%;
     display: flex;
     align-items: center;
     justify-content: space-between;
