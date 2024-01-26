@@ -23,13 +23,27 @@ span{
     color: #22D4FD;
 
 }
-/* Acessando a class criada no HTML */
-.titulo-destaque {
-    color: #22d4fd;
+
+.cabecalho {
+    padding: 2% 0% 0% 27%;
 }
+
+.cabecalho__menu{
+display: flex;
+gap: 80px;
+}
+
+.cabecalho__menu__link{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #22D4FD;
+
+}
+
 /* Chamando a class, https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
 .apresentacao {
-   padding: 8% 27%;
+   padding: 5% 27%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -46,6 +60,11 @@ span{
 .apresentacao__conteudo__titulo {
 font-size: 36px;
 font-family: 'Krona One', sans-serif;
+}
+
+/* Acessando a class criada no HTML */
+.titulo-destaque {
+    color: #22d4fd;
 }
 
 .apresentacao__conteudo__texto {
