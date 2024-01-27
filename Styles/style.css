@@ -123,6 +123,11 @@ font-family: var(--fonte-primaria);
     background-color: var(--cor-hover);
 }
 
+.apresentacao__imagem{
+    width: 50%;
+}
+
+
  .rodape{
     padding: 28px;
     color: var(--cor-primaria);
