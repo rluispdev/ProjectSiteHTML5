@@ -36,7 +36,7 @@ span{
 }
 
 .cabecalho {
-    padding: 2% 0% 0% 27%;
+    padding: 2% 0% 0% 15%;
 }
 
 .cabecalho__menu{
@@ -55,10 +55,11 @@ gap: 80px;
 
 /* Chamando a class, https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
 .apresentacao {
-   padding: 5% 27%;
+   padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
  
 }
 
@@ -138,5 +139,9 @@ font-family: var(--fonte-primaria);
     font-weight: 400;
 
  }
-
- 
+/* Responsividade - Os parenteses sao uma condicao, se max-width... aplica o que esta na chave */
+@media(max-width: 1200px){
+    .apresentacao {
+        flex-direction: column-reverse;
+    }
+}
