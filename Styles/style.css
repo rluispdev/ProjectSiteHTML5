@@ -70,7 +70,8 @@ gap: 80px;
 }
 
 .apresentacao__conteudo__titulo {
-font-size: 36px;
+/* font-size: 36px; transformar px em rem (para adaptalidade da página. Multiplicar por 16.*/
+font-size: 2.25rem;
 font-family: var(--fonte-primaria);
 }
 
