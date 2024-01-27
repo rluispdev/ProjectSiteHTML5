@@ -16,17 +16,17 @@ body {
     /* height: 100vh; */
     /* Para imagem nao sair do body */
     box-sizing: border-box;
-    background-color: black;
+    background-color: var(--cor-primaria);
     /* Mudar a cor do texto */
-    color: #F6F6F6
+    color: var(--cor-secundaria);
 }
 /* Define uma cor padrão para a tag strong */
 strong {
-    color: #22d4fd;
+    color: var(--cor-terciaria);
 }
 /* Define um estilo exclusivo para tag span*/
 span{
-    color: #22D4FD;
+    color: var(--cor-terciaria);
 
 }
 
@@ -43,7 +43,7 @@ gap: 80px;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-size: 24px;
-    color: #22D4FD;
+    color: var(--cor-terciaria);
     text-decoration: none;
 
 }
@@ -71,7 +71,7 @@ font-family: 'Krona One', sans-serif;
 
 /* Acessando a class criada no HTML */
 .titulo-destaque {
-    color: #22d4fd;
+    color: var(--cor-terciaria);
 }
 
 .apresentacao__conteudo__texto {
@@ -99,7 +99,7 @@ font-family: 'Krona One', sans-serif;
     display: flex;
     justify-content: center;
     gap: 16px;
-    border: 2px  solid #22D4FD;
+    border: 2px  solid var(--cor-terciaria);
     width: 378px;
     text-align: center;
     border-radius: 8px;
@@ -107,18 +107,18 @@ font-family: 'Krona One', sans-serif;
     font-size: 24px;
     padding: 21.5px 0;
     text-decoration: none;
-    color: #F6F6F6;
+    color: var(--cor-secundaria);
     font-family: 'Roboto', sans-serif;
 }
 
 .apresentacao__links__link:hover {
-    background-color: #272727;
+    background-color: var(--cor-primaria);
 }
 
  .rodape{
     padding: 28px;
-    color: black;
-    background-color: #22D4FD;
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
